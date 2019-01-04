@@ -6,7 +6,7 @@ This operator generates a dummy historical data for highcharts-widget
 Build
 -----
 
-Be sure to have installed [Node.js](http://node.js) and [Bower](http://bower.io) in your system. For example, you can install it on Ubuntu and Debian running the following commands:
+Be sure to have installed [Node.js](http://node.js) in your system. For example, you can install it on Ubuntu and Debian running the following commands:
 
 ```bash
 sudo apt update; sudo apt install curl gnupg
@@ -14,16 +14,10 @@ curl -sL https://deb.nodesource.com/setup_8.x | sudo bash -
 sudo apt install nodejs npm
 ```
 
-If you want the last version of the widget, you should change to the `develop` branch:
+Install npm dependencies by running:
 
 ```bash
-git checkout develop
-```
-
-Install other npm dependencies by running: (need root because some libraries use applications, check package.json before to be sure)
-
-```bash
-sudo npm install
+npm install
 ```
 
 For build the widget you need download grunt:
