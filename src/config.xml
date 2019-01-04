@@ -2,7 +2,7 @@
 <operator xmlns="http://wirecloud.conwet.fi.upm.es/ns/macdescription/1" vendor="TIS Inc." name="dummy-historical-data" version="0.0.1">
   <details>
     <title>Dummy Historical Data</title>
-    <homepage>https://example.com</homepage>
+    <homepage>https://github.com/tech-sketch/dummy-historical-data</homepage>
     <authors>Nobuyuki Matsui &lt;nobuyuki.matsui@gmail.com&gt;</authors>
     <email>nobuyuki.matsui@gmail.com</email>
     <image>images/catalogue.png</image>
@@ -12,7 +12,7 @@
     <licenseurl>http://example.com</licenseurl>
     <doc>doc/userguide.md</doc>
     <changelog>doc/changelog.md</changelog>
-    <issuetracker>https://example.com</issuetracker>
+    <issuetracker>https://github.com/tech-sketch/dummy-historical-data/issues</issuetracker>
   </details>
   <preferences>
   </preferences>
