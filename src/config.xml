@@ -1,0 +1,26 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<operator xmlns="http://wirecloud.conwet.fi.upm.es/ns/macdescription/1" vendor="TIS Inc." name="dummy-historical-data" version="0.0.1">
+  <details>
+    <title>Dummy Historical Data</title>
+    <homepage>https://example.com</homepage>
+    <authors>Nobuyuki Matsui &lt;nobuyuki.matsui@gmail.com&gt;</authors>
+    <email>nobuyuki.matsui@gmail.com</email>
+    <image>images/catalogue.png</image>
+    <description>Generate dummy historical data for highcharts-widget</description>
+    <longdescription>DESCRIPTION.md</longdescription>
+    <license>Apache License 2.0</license>
+    <licenseurl>http://example.com</licenseurl>
+    <doc>doc/userguide.md</doc>
+    <changelog>doc/changelog.md</changelog>
+    <issuetracker>https://example.com</issuetracker>
+  </details>
+  <preferences>
+  </preferences>
+  <wiring>
+    <inputendpoint name="poiInput" type="text" label="Selected PoI" description="Selected PoI data to observe" friendcode="poi"/>
+    <outputendpoint name="graphDataOutput" type="text" label="Graph Data" description="Historical Graph data for highcharts-wiget" friendcode="graphData"/>
+  </wiring>
+  <scripts>
+    <script src="js/main.js"/>
+  </scripts>
+</operator>
